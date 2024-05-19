@@ -1,0 +1,38 @@
+:root {
+  --fonte: "Poppins", sans-serif;
+  --azul: #4b69fd;
+  --preto: #000000;
+  --laranja: #fe652b;
+  --creme: #fff9eb;
+}
+
+html {
+  background: var(--azul);
+
+  font-family: var(--fonte);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+  max-width: 900px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 36px;
+  color: var(--azul);
+}
+
+ul li {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 8px 0;
+}
